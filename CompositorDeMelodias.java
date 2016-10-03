@@ -133,6 +133,7 @@ public class CompositorDeMelodias implements ActionListener {
 		panelMelodia.add(textField);
 		
 		JButton button = new JButton("play");
+		button.addActionListener(new ButtonPlayListener(panelMelodia));
 		button.setBackground(Color.ORANGE);
 		button.setForeground(Color.WHITE);
 		panelMelodia.add(button);
@@ -149,17 +150,18 @@ public class CompositorDeMelodias implements ActionListener {
 		this.frame = frame;
 	} 
 	
-	public static void main(String[] args) throws IOException {
-		CompositorDeMelodias lc = new CompositorDeMelodias();
-		lc.comenzar();
-	}
-
+	
 	public String getTempo() {
 		return tempo;
 	}
 
 	public void setTempo(String tempo) {
 		this.tempo = tempo;
+	}
+
+	public static void main(String[] args) throws IOException {
+		CompositorDeMelodias lc = new CompositorDeMelodias();
+		lc.comenzar();
 	}
 
 
