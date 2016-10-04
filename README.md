@@ -10,5 +10,6 @@ Instalacion:
 
 3) Importar el codigo.
 
+Si se desea probar la aplicacion simplemente se descargan el archivo "bolino_daCostaFaro.jar" y le dan a ejecutar.
 
 Autores: Julian da Costa Faro - Patricio Bolino
