@@ -1,6 +1,4 @@
 package practica4.ej1;
-
-import java.awt.Button;
 import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -37,8 +35,4 @@ public class ButtonPlayListener implements ActionListener {
 	public void setPanel(Component panel) {
 		this.panel = (JPanel) panel;
 	}
-
-	
-
-
 }
